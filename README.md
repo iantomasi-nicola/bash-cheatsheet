@@ -377,3 +377,13 @@ Host name
   Port 8765
 $ ssh name
 ```
+
+## Process management
+
+```bash
+ps                      # Process status, information about processes running in memory
+top                     # Process viewer, find the CPU-intensive programs currently running (real-time)
+ulimit -u 300           # Process limit for single user
+./program1 ; ./program2 # Sequential execution
+./program1 & ./program2 # Parallel execution
+```
